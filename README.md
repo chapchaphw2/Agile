@@ -54,7 +54,7 @@ AI_LawDemand/
 # ==== Project paths (edit as needed) ====
 import os
 from pathlib import Path
-PROJECT_ROOT = Path(os.getenv("AI_LAWDEMAND_ROOT", "."))
+PROJECT_ROOT = Path(os.getenv(_"AI_LAWDEMAND_ROOT"_, "."))
 DATA_ROOT = PROJECT_ROOT / "dataset"
 MODEL_ROOT = PROJECT_ROOT / "model"
 RESULT_ROOT = PROJECT_ROOT / "results"  # 필요 시
